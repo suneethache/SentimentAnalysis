@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/suneetha/Desktop/projects/Sentiment_analysis_LLM/mlruns/0/440b5809418347aa8ca4ea632fe8bc34/artifacts
+end_time: 1744383715425
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 440b5809418347aa8ca4ea632fe8bc34
+run_name: DistilBERT-Imdb_LoRA
+run_uuid: 440b5809418347aa8ca4ea632fe8bc34
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744370467039
+status: 3
+tags: []
+user_id: subbu
