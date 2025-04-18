@@ -1,6 +1,10 @@
-# 🧠 Lightweight LLM Sentiment Analysis on IMDB
+# 🧠 Lightweight LLM Sentiment Analysis on customer reviews and feedback
 
-This project demonstrates an end-to-end pipeline for fine-tuning a lightweight language model (DistilBERT) on the IMDB movie review dataset for sentiment analysis using **LoRA (Low-Rank Adaptation)**. It is optimized for CPU training and includes model deployment with **FastAPI**, experiment tracking via **MLflow**, and a complete **CI/CD pipeline with GitHub Actions**.
+This project demonstrates an end-to-end pipeline for fine-tuning a lightweight language model (DistilBERT) on the review dataset for sentiment analysis using **LoRA (Low-Rank Adaptation)**. 
+
+I am using IMDB dataset to demonstrate the real usecase (Since I am not allowed to share the dataset), which is adaptable to proprietary business data sources.
+
+It is optimized for CPU training and includes model deployment with **FastAPI**, experiment tracking via **MLflow**, and a complete **CI/CD pipeline with GitHub Actions**.
 
 ---
 
