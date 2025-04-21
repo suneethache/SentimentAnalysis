@@ -21,9 +21,9 @@ It is optimized for CPU training and includes model deployment with **FastAPI**,
 
 ## 🧪 Dataset
 
-- You cn also use your own dataset to finetune the model.
-- I have used IMDB reviews dataset from Hugging face library to make things easier.
-- But when you use custom dataset make sure the token size matches the distilBert input token limit
+- You can also use your own dataset to finetune the model.
+- I have used IMDB reviews dataset from Hugging face library to make things easier to explain the workflow.
+- But when you use custom dataset make sure the token size matches the distilBert input token limit.
 
 - **IMDB Movie Reviews**  
   - 50,000 reviews (25k train / 25k test)
