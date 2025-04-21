@@ -51,48 +51,55 @@ imdb-sentiment-llm/
 
 ---
 
-## 🚀 Quick Start
+### 🚀 Quick Start
 
-### Running the project
+## Running the project
 
 ## 1. Installing requirements
 
 ```bash
 python -m venv venv
 source venv/bin/activate
-pip install -r requirements.txt ```
+pip install -r requirements.txt
+```
 
 By running the above lines of code, everything that needed to train/ test the model will be installed.
 
 ## 2. To finetune
 ```bash
-python train.py ```
+python train.py
+```
 
 ## Run FastAPI inference server
 ```bash
-uvicorn app:app --reload --host 0.0.0.0 --port 8000  ```
+uvicorn app:app --reload --host 0.0.0.0 --port 8000
+ ```
 
 ## 3.Testing the API
 ```bash
 curl -X POST http://localhost:8000/predict \
   -H "Content-Type: application/json" \
-  -d '{"text": "The movie was absolutely fantastic!"}'   ```
+  -d '{"text": "The movie was absolutely fantastic!"}'
+```
 
 ### 4. Docker Deployment
 
 ## Build the Docker image
 ```bash
-docker build -t imdb-sentiment-app  ```
+docker build -t imdb-sentiment-app
+```
 
 ## Run the container
 ```bash
-docker run -p 8000:8000 imdb-sentiment-app ```
+docker run -p 8000:8000 imdb-sentiment-app
+```
 
 
 ## 5. MLflow tracking
 ```bash
 
-mlflow ui ```
+mlflow ui
+```
 
 
 
