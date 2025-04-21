@@ -82,14 +82,14 @@ curl -X POST http://localhost:8000/predict \
   -d '{"text": "The movie was absolutely fantastic!"}'
 ```
 
-### 4. Docker Deployment
+## 4. Docker Deployment
 
-## Build the Docker image
+### Build the Docker image
 ```bash
 docker build -t imdb-sentiment-app
 ```
 
-## Run the container
+### Run the container
 ```bash
 docker run -p 8000:8000 imdb-sentiment-app
 ```
