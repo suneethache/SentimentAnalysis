@@ -53,12 +53,14 @@ imdb-sentiment-llm/
 
 ## 🚀 Quick Start
 
-### 1. Install Dependencies
+### Running the project
+
+** ## 1. Installing requirements **
 
 ```bash
 python -m venv venv
 source venv/bin/activate
-pip install -r requirements.txt
+pip install -r requirements.txt ```
 
 By running the above lines of code, everything that needed to train/ test the model will be installed.
 
