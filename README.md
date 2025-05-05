@@ -32,7 +32,7 @@ It is optimized for CPU training and includes model deployment with **FastAPI**,
 ---
 
 ## 📁 Project Structure
-
+```
 imdb-sentiment-llm/
 ├── train.py
 ├── app.py
@@ -44,7 +44,7 @@ imdb-sentiment-llm/
     └── workflows/
         └── ci-cd.yml      # GitHub Actions workflow
 
-
+```
 ## Running the code
 
 # Install dependencies
